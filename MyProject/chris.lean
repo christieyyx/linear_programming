@@ -14,4 +14,4 @@ def E :=  EuclideanSpace k (Fin n)
 variable(m n :ℕ) (x: E k n)
 def M := Matrix (Fin m) (Fin n) k
 
-#check (Matrix (Fin m) (Fin n) k) *ᵥ x
+--#check (Matrix (Fin m) (Fin n) k) *ᵥ x
