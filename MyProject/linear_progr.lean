@@ -10,4 +10,5 @@ variable (M : Matrix (Fin m) (Fin n) ℝ) (v : (Fin n) → ℝ)(v₁: (Fin m) �
 #check row v
 #check col v
 #check (row v₁) * M
-#check M i
+#check col (M i)
+
